@@ -29,8 +29,12 @@ header {
     color:white;
     font-size: 24px;
 }
+
 .logo-link {
     text-decoration: none;
+}
+.logo-link :hover{
+    color:#fca311
 }
 .lista-do-nav {
     display: flex;
@@ -45,4 +49,34 @@ header {
     color:white;
     font-size: 22px;
 }
-
+.lista-do-nav :hover{
+    color:#fca311;
+}
+.banner-principal {
+    position: relative;
+    min-height: 150px;
+    height: 100vh;
+}
+.banner {
+    width: 100%;
+    height: 85%;
+}
+    .banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 40%;    
+}
+.btn-produtos {
+    position: absolute;
+    top: 550px;
+    left: 41%;
+}
+.btn-produto {
+    padding: 18px 40px;
+    background-color:#14213d;
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
