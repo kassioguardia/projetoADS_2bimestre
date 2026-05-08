@@ -6,7 +6,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    background-color: #000000;
+    background-color: #141414;
     z-index: 1000;
 }
 
@@ -69,14 +69,17 @@ header {
 }
 .btn-produtos {
     position: absolute;
-    top: 550px;
+    top: 581px;
     left: 41%;
 }
 .btn-produto {
-    padding: 18px 40px;
-    background-color:#14213d;
-    color:white;
+    padding: 18px 30px;
+    background-color:#141414;
+    color: white;
     font-size: 20px;
     text-decoration: none;
     border-radius: 5px;
+}
+.btn-produtos :hover {
+    color:#fca311;
 }
